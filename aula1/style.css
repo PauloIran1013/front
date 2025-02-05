@@ -1,0 +1,31 @@
+body{
+    background-color:brown;
+}
+
+h1{
+    text-align: center ;
+    margin-top: 0%;
+    padding: 1rem;
+    background-color: burlywood;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+}
+
+.CardsPai{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.Cards{
+width: 250px;
+height: auto;
+background-color: blueviolet;
+color: beige;
+}
+.Cards.h3{
+    color: aqua;
+}

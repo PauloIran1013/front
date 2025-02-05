@@ -1,0 +1,213 @@
+/*
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(238, 238, 0);
+}
+
+header{
+   
+    background-color: burlywood;
+    margin: 0%;
+    padding:2rem;
+    
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cabeca{
+display: flex;
+justify-content: space-around;
+text-align:center;
+padding: 2px;
+margin: 1px;
+
+}
+.cabeca li{
+    list-style: none;
+}
+.cabeca li a {
+text-decoration: none;
+color: white;
+}
+.introducao{
+    text-align: center;
+    padding: 50px   ;
+     
+}
+.tutorial{
+    margin-top: 10px;
+    text-align:start;
+    gap: 10px;
+   
+}
+.tutorial h2{
+    text-align: center;
+}
+.tutorial p{
+    text-align: center;
+}
+.tutorialImg{
+    
+    text-align: center;
+}
+.anuncio{
+    display: flex;
+    justify-content: center;
+}
+.Pai{
+    background-color: blueviolet;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: red;
+    padding: 1rem;
+    display: flex;
+     justify-content: center;
+     text-align: center;
+     
+    color: white;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7fb; /* Cor de fundo suave (cinza claro) */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #3b4f67; /* Cor de fundo elegante e moderna */
+    padding: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #2a3b4c;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #2a3b4c;
+    border-radius: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cabeca li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.cabeca li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cabeca li a:hover {
+    background-color: #f39c12; /* Cor vibrante ao passar o mouse */
+    color: white;
+    transform: translateY(-3px); /* Efeito de elevação */
+}
+
+.introducao {
+    text-align: center;
+    padding: 60px;
+    font-size: 1.3rem;
+    color: #2c3e50;
+    line-height: 1.7;
+}
+
+.tutorial {
+    margin-top: 40px;
+    text-align: start;
+    gap: 20px;
+}
+
+.tutorial h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3b4f67;
+    font-weight: 700;
+}
+
+.tutorial p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #3b4f67;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.tutorialImg {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.Pai {
+    background-color: #3498db; /* Cor vibrante de azul */
+    margin: 20px 10%;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #2c3e50; /* Cor de fundo mais escura para o rodapé */
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-top: 50px;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #f39c12;
+}
