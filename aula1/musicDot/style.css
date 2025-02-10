@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+header{
+    /* display: flex;
+    justify-content: center; */
+    background-color: aqua;
+}
+.cabeca{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.cabeca li{
+list-style: none;
+}
+
+ /* .mainPai{
+    margin: 20px 10%;
+}  */
+.imgLogo {
+margin-top: 10px;
+text-align: center;
+}
+.imgMatriz{
+    text-align: center;
+    margin-top: 10px;
+}
+.sobreNos h2{
+text-align: center;
+}
+
+.historia h2{
+    text-align: center;
+}
+.diferenciais h2{
+   text-align: center;
+}
+
+.sobreNos{
+    margin-top: 10px;
+}
+.historia{
+    margin-top: 20px;
+}
+.historia p{
+    margin-top: 5px;
+}
+.diferenciais{
+margin-top: 20px;
+}
+
+.imgFamilia{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+legend{ 
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+
+footer{
+    background-color: aqua;
+}
