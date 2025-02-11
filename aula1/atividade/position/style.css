@@ -1,0 +1,127 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteiner{
+    background-color: blueviolet;
+    margin-top: 25px;
+    position: relative;
+    padding: 50px;
+    margin: 10%;
+    border-radius: 20px;
+}
+.titulo{
+    position: absolute;
+    margin-top: 3px;
+}
+.conteiner p{
+    margin-top: 30px;
+}
+button{
+    position: fixed;
+    bottom: 20px;
+    padding: 10px;
+    border: none;
+    background-color: chocolate;
+    border-radius: 6px;
+    right: 10px ;
+}
+
+footer{
+   margin-top: 100px;
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Fonte mais moderna */
+}
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo suave */
+}
+
+header {
+    background-color: #00bcd4; /* Azul vibrante */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #008c8d; /* Borda para destaque */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.conteiner {
+    background-color: #8a2be2; /* Roxo suave */
+    margin-top: 25px;
+    position: relative;
+    padding: 50px;
+    margin: 10% auto; /* Alinhar ao centro */
+    width: 80%;
+    max-width: 800px; /* Limitar largura para não ficar esticado */
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    overflow: hidden; /* Para evitar que o título saia do contêiner */
+}
+
+.titulo {
+    position: absolute;
+    top: 15px; /* Ajustar posição */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+.conteiner p {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.6; /* Melhorar legibilidade */
+}
+
+button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 15px 25px;
+    background-color: #d2691e; /* Cor do botão mais suave */
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efeitos de transição */
+}
+
+button:hover {
+    background-color: #cd5c5c; /* Cor ao passar o mouse */
+    transform: translateY(-5px); /* Efeito de elevação */
+}
+
+footer {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #00bcd4; /* Azul suave igual ao header */
+    text-align: center;
+    border-top: 4px solid #008c8d;
+    font-size: 1.2em;
+    color: white;
+}
