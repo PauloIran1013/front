@@ -1,0 +1,137 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: red;
+    color: beige;
+   padding: 20px;
+}
+.conteiner{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+.conteiner h1{
+    background-color: blue;
+    margin: 10px;
+    margin-left: 55px;
+    margin-right: 55px;
+    border-radius: 10px;
+}
+img{
+  margin-top: 10px;
+    margin: 50px;
+   width: 200px;
+   height: 200px;
+   
+}
+.corImg{
+    display: inline-block;
+    margin:10px;    
+    background-color: aqua;
+    
+}
+.corImg p{
+    margin-top: 2px;
+    align-items: center;
+    margin-bottom: 5%;
+}
+    .corImg:hover {
+    background-color: blue; 
+}
+
+footer{
+    text-align: center;
+    background-color: red;
+    color: beige;
+   padding: 20px;
+} */
+
+/* usei IA para mudar as cores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #2C3E50; /* Azul escuro */
+    color: white; /* Texto branco */
+    padding: 20px;
+}
+
+.conteiner {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+    background-color: #ECF0F1; /* Fundo claro */
+}
+
+.conteiner h1 {
+    background-color: #3498DB; /* Azul claro */
+    margin: 10px;
+    margin-left: 55px;
+    margin-right: 55px;
+    border-radius: 10px;
+    color: white; /* Texto branco */
+}
+
+img {
+    margin-top: 10px;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.corImg {
+    display: inline-block;
+    margin: 10px;
+    background-color: #BDC3C7; /* Cinza claro */
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+.corImg p {
+    margin-top: 2px;
+    align-items: center;
+    margin-bottom: 5%;
+    color: #34495E; /* Texto cinza escuro */
+}
+
+footer {
+    text-align: center;
+    background-color: #2C3E50; /* Azul escuro */
+    color: white; /* Texto branco */
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498DB; /* Azul claro */
+    color: white; /* Texto branco */
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #2980B9; /* Azul mais escuro */
+    transform: scale(1.05); 
+}
+
+
+button:focus {
+    outline: none; 
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.6); 
+}
