@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+.cabeca1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.cabeca1 button{
+    padding: 10px 20px;
+   background-color: red;
+   border-radius: 10px;
+   border: none;
+  color: white  ;
+  cursor: pointer;
+}
+.cabeca1 img{
+    height: 50px;
+    width: 50px;
+}
+.cabeca1 input{ 
+padding: 10px;
+height: 10px;
+border-radius: 10px;
+border: none;
+background-color: #B48484;
+color: white;
+}
+.cabeca2 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   
+}
+.cabeca2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
