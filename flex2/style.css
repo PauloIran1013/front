@@ -1,0 +1,127 @@
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box; 
+}
+
+
+header{
+    background-color: brown;
+    background-image: url(img/download\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    background-position: center;
+    height: 300px;
+    padding: 70px;
+    
+}
+.cabeca {
+    
+    
+}
+.cabeca p{
+    margin-top: 3px ;
+    background-color: #1B34F2   ;
+    padding: 5px;
+    width: 300px;
+    color: white;
+}
+.cabeca h1{
+    background-color:#1B34F2;
+    padding: 10px;
+    width: 500px;
+    color: white;
+}
+.Bola{  
+    position: absolute;
+    margin-top: 10px;
+    background-image: url(img/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    left: 30px;
+}
+.Seguir{
+    display: flex;
+    justify-content:end;
+    margin-right: 600px;
+    text-align: center;
+    padding: 10px;
+    gap: 30px;
+   background-color:#1B34F2;
+   margin-top: 10px;
+   width: 1000px;
+   margin-left: 100px;
+   color: white;
+}
+.Seguir button{
+    padding: 10px 20px;
+   background-color:#8E1BF2;
+   color: white;
+   border-radius: 10px;
+   border: none;
+  color: white  ;
+  cursor: pointer;
+}
+.Seguir button:hover{
+    background-color: #D41BF2;
+}
+.pai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 130px;
+}
+.boxEsquerda{
+    border: 10px solid #876BF2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 700px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.cards{
+    padding: 10px;
+}
+.cards p{
+background-color: #0D71F5;
+color: white;
+padding: 10px;
+margin: 5px;
+}
+.cards img{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.boxDireita{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1px;
+}
+.direita p{
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.direita img{
+    margin-left: 250px;
+    margin-right: 250px;  
+    width: 200px;
+    height: 200px;   
+    background-color: red;
+    border-radius: 10px;
+}
+footer{
+    background-color:#1B34F2;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
