@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+        background-color: blueviolet;
+        padding: 10px;
+}
+.cabeca img{ 
+width: 70px;
+
+}
+.cabeca{
+    display: flex;
+    justify-content: space-between
+    
+}
+.cabeca2 ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 100px;
+   text-align: center;
+}
+.cabeca2 ul li{
+    list-style: none;
+   
+}
+.cabeca2 ul li a{
+    text-decoration: none;
+    color:white
+}
+.cabeca2 ul li a:hover{
+    text-decoration: none;
+    color:pink;
+}
+
+.imagemLugares{
+    display: flex;
+    justify-content: center;
+}
+.imagemLugares img{
+    width: 1400px;
+    height: 400px;
+    margin: 20px;
+}
+.apresentacao{
+text-align: center; 
+margin: 10px;
+margin-right: 10px;
+margin-left: 10px;
+margin-top: 10px;
+
+}
+.apresentacao h1{
+    background-color: rgb(195, 167, 221);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    
+}
+.apresentacao p{
+    margin-top: 10px;
+    background-color: rgb(227, 216, 236);
+    padding: 10px;
+    border-radius: 10px;
+}
+.Beneficios{
+    text-align: center; 
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Beneficios h1{
+    background-color: rgb(195, 167, 221);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+.Beneficios ul{
+    margin-top: 10px;
+    list-style: none;
+    background-color: rgb(227, 216, 236);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
