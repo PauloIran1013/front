@@ -49,7 +49,7 @@ margin-bottom: 39px;
     height: 100px;
     width: 100px;
 }
-.cadastroPai{
+.loginPai{
     display: flex;
     justify-content: center;
 
@@ -59,7 +59,7 @@ margin-bottom: 39px;
         margin-bottom: 132px;
 }
 
-.cadastro{
+.login{
   background-color: #d9d9d9;
 width: 600px;
 height: 500px;
@@ -69,13 +69,13 @@ height: 500px;
         box-shadow:  0 30px 90px rgb(158, 158, 158);
         border-radius: 32px;
 }
-.cadastro label{
+.login label{
     margin-bottom: 10px;    
     margin-top: 20px;
     font-size: 20px;
     
 }
-.cadastro input{
+.login input{
     border-radius: 16px;
     height: 50px;
     width: 400px;
@@ -83,8 +83,8 @@ height: 500px;
     justify-content: center;
     margin-left: 100px;
     margin-right: 60px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 p{
@@ -132,12 +132,12 @@ background-color: #A8A8A8;
    border: none;
 }
 .entrarGoogle img{
-margin-left: 30px;
+margin-left: 100px;
 }
 .entrarGoogle a{
     color: black;
     text-decoration: none;
-    margin-right: 100px;
+    margin-right: 120px;
    
 }
 .entrarGoogle button:hover{
